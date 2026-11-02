@@ -6,7 +6,7 @@
 ## 安装
 
 ```bash
-pip install git+https://github.com/wujiancheng622/tushare-official-client.git
+pip install git+https://github.com/wujiancheng622/ushare-official-client.git
 ```
 
 Python 3.11+。已有本地源码时也可 `pip install .`，或直接复用 `tushare_official.py`。
