@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tushare-official-client"
+version = "0.1.0"
+description = "Tiny official Tushare client with instance-scoped IPv4 and connection reuse"
+requires-python = ">=3.11"
+dependencies = ["tushare>=1.4.0", "pandas>=2.3.2", "requests>=2.31.0", "urllib3>=2.0,<3"]
+
+[tool.setuptools]
+py-modules = ["tushare_official"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
